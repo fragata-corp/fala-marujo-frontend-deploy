@@ -51,6 +51,7 @@ div#container header div#title {
   justify-content: center;
 }
 div#container ul {
+  padding-left: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -61,8 +62,9 @@ div#container ul {
   background-color: #eeeeee;
 }
 div#container ul li {
+  display: flex;
   list-style: none;
-  width: 20%;
+  justify-content: center;
   text-align: center;
   cursor: pointer;
 }
