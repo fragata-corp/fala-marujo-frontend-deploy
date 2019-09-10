@@ -2,6 +2,14 @@ div#container {
   width: 100%;
   height: 100%;
 }
+@media only screen and (max-device-width: 700px) {
+  div#container header :first-child {
+    margin-left: 10px;
+  }
+  div#container header :last-child {
+    margin-right: 5px;
+  }
+}
 
 div#container header {
   display: flex;
@@ -44,22 +52,19 @@ div#container header div#title {
 }
 div#container ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border-radius: 0% 0% 30px 30px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 80%;
   height: 8%;
   background-color: #eeeeee;
 }
 div#container ul li {
-  max-width: 30%;
   list-style: none;
-  margin-left: 4%;
-}
-
-div#container ul :first-child {
-  margin-left: 0;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
 }
 div#container div#search {
   width: 100%;
