@@ -10,7 +10,7 @@ export default function Home() {
         <div id="title">
           <h4>Blog e Podcast</h4>
           <h1>FALA MARUJO</h1>
-          <h4>by Fragata Corp</h4>
+          <h5>by Fragata Corp</h5>
         </div>
         <div id="info">
           <p>
