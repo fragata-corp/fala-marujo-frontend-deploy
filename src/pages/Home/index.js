@@ -20,6 +20,13 @@ export default function Home() {
         </div>
       </header>
       <ul>
+        <li>
+          <div className="container" onClick={() => {}}>
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
+          </div>
+        </li>
         <li>Novidades</li>
         <li>Sobre o Fala Marujo</li>
         <li>Seija um Apoiador</li>

@@ -56,9 +56,10 @@ div#container ul {
   justify-content: space-around;
   align-items: center;
   border-radius: 0% 0% 30px 30px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 80%;
-  height: 8%;
   background-color: #eeeeee;
 }
 div#container ul li {
@@ -68,6 +69,23 @@ div#container ul li {
   text-align: center;
   cursor: pointer;
 }
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  margin: 6px 0;
+}
+
+@media screen and (max-width: 600px) {
+  div#container ul {
+    float: none;
+    display: block;
+  }
+}
+
 div#container div#search {
   width: 100%;
   max-height: 5%;
