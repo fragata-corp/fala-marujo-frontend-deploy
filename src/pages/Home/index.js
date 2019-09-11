@@ -6,7 +6,7 @@ import "../../assets/font/style.css";
 export default function Home() {
   return (
     <div id="container">
-      <header>
+      <header id="header">
         <div id="title">
           <h4>Blog e Podcast</h4>
           <h1>FALA MARUJO</h1>
@@ -36,6 +36,22 @@ export default function Home() {
       <div id="search">
         <input type="text" onChange={() => {}}></input>
       </div>
+      <section>
+        <h1>Podcast em destaque</h1>
+        <div>
+          <article>
+            <header>Título</header>
+            <span>Data</span>
+            <p>
+              The way she moves, she's like a belly-dancer. She's shaking that
+              ass to the new Nelly jams. I think someone's at the door but I
+              don't think I'mma answer. Police saying 'freeze!': do-doing,
+              doing...
+            </p>
+            <a href="##">mais...</a>
+          </article>
+        </div>
+      </section>
     </div>
   );
 }

@@ -3,15 +3,15 @@ div#container {
   height: 100%;
 }
 @media only screen and (max-device-width: 700px) {
-  div#container header :first-child {
+  div#container header#header :first-child {
     margin-left: 10px;
   }
-  div#container header :last-child {
+  div#container header#header :last-child {
     margin-right: 5px;
   }
 }
 
-div#container header {
+div#container header#header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,18 +21,18 @@ div#container header {
   height: 15%;
 }
 
-div#container header div h1 {
+div#container header#header div h1 {
   margin: 0;
   padding: 0;
   font-family: "Nomos Inline Grunge Inline Grunge";
 }
 
-div#container header div h4 {
+div#container header#header div h4 {
   margin: 0;
   padding: 0;
 }
 
-div#container header div#info {
+div#container header#header div#info {
   width: 100%;
   height: 100%;
   display: flex;
@@ -41,7 +41,7 @@ div#container header div#info {
   max-height: 100px;
   justify-content: center;
 }
-div#container header div#title {
+div#container header#header div#title {
   width: 100%;
   height: 100%;
   display: flex;
@@ -99,4 +99,50 @@ div#container div#search input {
   width: 30%;
   border-radius: 30px;
   border: solid 2px #b7b7b7;
+}
+div#container section {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#container section h1 {
+  text-align: center;
+}
+
+div#container section div {
+  background: transparent url("../../assets/img/modelo.jpg") 0% 0% no-repeat
+    padding-box;
+  border-radius: 0px 0px 63px 0px;
+  opacity: 1;
+  background-size: 100%;
+  height: 300px;
+  border: solid 5px #e38507;
+}
+div#container section div article {
+  display: flex;
+  flex-direction: column;
+  background: #efefef 0% 0% no-repeat padding-box;
+  max-width: 30%;
+  border-radius: 0px 0px 63px 0px;
+  opacity: 1;
+}
+div#container section div article header {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+div#container section div article span {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+div#container section div article p {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+div#container section div article a {
+  color: #333;
+  align-self: flex-end;
+  margin-right: 20%;
+  margin-bottom: 5%;
 }
