@@ -8,18 +8,19 @@ export default function Home() {
   return (
     <div id="container">
       <header className="first">
-        <div id="title">
-          <span id="um">Blog e Podcast</span>
-          <span id="dois">FALA MARUJO</span>
-          <span id="tres">by Fragata Corp</span>
+        <div>
+          <div id="title">
+            <span id="um">Blog e Podcast</span>
+            <span id="dois">FALA MARUJO</span>
+            <span id="tres">by Fragata Corp</span>
+          </div>
+          <div id="description">
+            <p>
+              A melhor opção para uma tripulação que está a caça de informações
+              sobre tecnologia
+            </p>
+          </div>
         </div>
-        <div id="description">
-          <p>
-            A melhor opção para uma tripulação que está a caça de informações
-            sobre tecnologia
-          </p>
-        </div>
-
         <aside>
           <ul>
             <li>Novidades</li>
