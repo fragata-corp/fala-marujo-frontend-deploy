@@ -10,19 +10,18 @@ export default function Home() {
       <header className="first">
         <div>
           <div id="title">
-            <span id="um">Blog e Podcast</span>
-            <span id="dois">FALA MARUJO</span>
-            <span id="tres">by Fragata Corp</span>
+            <span>Blog e Podcast</span>
+            <span>FALA MARUJO</span>
+            <span>by Fragata Corp</span>
           </div>
           <div id="description">
-            <p>
-              A melhor opção para uma tripulação que está a caça de informações
-              sobre tecnologia
-            </p>
+            <p>A melhor opção para uma tripulação </p>
+            <p> que está a caça de informações sobre tecnologia</p>
           </div>
         </div>
         <aside>
           <ul>
+            <li>Categorias</li>
             <li>Novidades</li>
             <li>Sobre o Fala Marujo</li>
             <li>Seija um Apoiador</li>
